@@ -1,0 +1,611 @@
+/* Colors to use */
+/* background -> #0e141b */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #0e141b;
+	font-family: 'Playfair Display', serif;
+	overflow-x: hidden;
+}
+.red {
+	color: #ff5277;
+}
+
+.blue {
+	color: #00a6c7;
+}
+
+a.red {
+	color: #ff5277;
+}
+
+a.blue {
+	color: #00a6c7;
+}
+
+/* HEADER
+-------------------*/
+
+/* logo */
+#logo {
+	width: 45px;
+	border-radius: 100%;
+}
+
+#header-name {
+	color: white;
+	font-size: 1.5em;
+	margin-left: 10px;
+}
+/* logo */
+
+header nav {
+	padding: 10px;
+}
+
+header nav li a {
+	color: white;
+	font-size: 1.5em;
+}
+
+#real-time {
+	font-size: 1.5em;
+	color: white;
+	padding: 10px;
+}
+
+header nav li a:hover {
+	color: #00a6c7;
+}
+
+.underlining:hover {
+	border-bottom: solid #ff5277;
+	border-width: 3px;
+	-webkit-transition: 0.3s ease-out;
+	-o-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+}
+
+
+
+.nav-divider {
+	width: 1px;
+	margin: 10px 20px;
+	background-color: white;
+}
+
+
+
+
+/* SECTION HOME
+-------------------*/
+#home {
+	margin-top: 200px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+				0 2px 2px rgba(0,0,0,0.12), 
+				0 4px 4px rgba(0,0,0,0.12), 
+				0 8px 8px rgba(0,0,0,0.12),
+				0 16px 16px rgba(0,0,0,0.12);
+	        box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+				0 2px 2px rgba(0,0,0,0.12), 
+				0 4px 4px rgba(0,0,0,0.12), 
+				0 8px 8px rgba(0,0,0,0.12),
+				0 16px 16px rgba(0,0,0,0.12);	
+}
+
+#home h2{
+	color: #ff5277;
+	font-size: 2em;
+}
+
+#home h1{
+	color: white;
+	font-size: 6.5em;
+}
+
+#home p{
+	color: white;
+	font-size: 2.5em;
+}
+
+#home button {
+	background-color: #00a6c7;
+	color: white;
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#home button:hover {
+	cursor: pointer;
+}
+
+#quote {
+	color: white;
+	font-size: 1.1em;
+}
+
+#quote-author {
+	color: #ff5277;
+	margin-left: 10px;
+}
+
+#home div.col-md-3 {
+	border-top: 1px solid white;
+}
+
+/* SECTION ABOUT ME
+-------------------*/
+
+section#about {
+	margin-top: 50px;
+	background-color: #fafafa;
+	padding-bottom: 100px;
+	
+}
+
+#about h1 {
+	font-size: 4.3em;
+	color: #00a6c7;
+}
+
+#about h2 {
+	font-size: 2.8em;
+	margin-left: 50px;
+}
+
+#about p {
+	font-size: 1.9em;
+}
+
+
+#about img {
+	width: 400px;
+	border-radius: 5px;
+	margin-top: 90px;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+				0 2px 2px rgba(0,0,0,0.12), 
+				0 4px 4px rgba(0,0,0,0.12), 
+				0 8px 8px rgba(0,0,0,0.12),
+				0 16px 16px rgba(0,0,0,0.12);
+	        box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+				0 2px 2px rgba(0,0,0,0.12), 
+				0 4px 4px rgba(0,0,0,0.12), 
+				0 8px 8px rgba(0,0,0,0.12),
+				0 16px 16px rgba(0,0,0,0.12);
+	
+}
+
+
+/* SECTION PROJECTS
+-------------------*/
+
+#projects {
+	background-color: #0e141b;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+				0 2px 2px rgba(0,0,0,0.12), 
+				0 4px 4px rgba(0,0,0,0.12), 
+				0 8px 8px rgba(0,0,0,0.12),
+				0 16px 16px rgba(0,0,0,0.12);
+	        box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+				0 2px 2px rgba(0,0,0,0.12), 
+				0 4px 4px rgba(0,0,0,0.12), 
+				0 8px 8px rgba(0,0,0,0.12),
+				0 16px 16px rgba(0,0,0,0.12);
+}
+
+#projects p {
+	color: white;
+	font-size: 1.9em;
+}
+
+#projects h3 {
+	color: #ff5277;
+	padding: 15px;
+	font-size: 2.5em;
+}
+
+#projects h1 {
+	color: #00a6c7;
+	font-size: 4.3em;
+	
+}
+
+#projects h2 {
+	color: #00a6c7;
+	font-size: 3.3em;
+	padding: 25px;
+	margin-top: 25px;
+}
+
+#projects img {
+	padding: 50px;
+	margin: 0 auto;
+}
+
+.white-divider {
+	background-color: white;
+	width: 500px;
+}
+
+/* SECTION CS50 PROJECTS
+-------------------*/
+
+section#harvard {
+	background-color: white;
+	margin-top: 80px;
+	padding-bottom: 30px;
+}
+
+#harvard h1 {
+	font-size: 2.6em;
+	color: #ff5277;
+	font-weight: 700;
+}
+
+#harvard p {
+	font-size: 1.9em;
+}
+
+.harvard-divider  {
+	border: 1px solid black;
+	margin: 20px;
+
+}
+
+
+/*CERTIFICATE SECTION
+-----------------------*/
+
+#certificates div {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#certificates h1 {
+	color: #ff5277;
+	font-size: 4em;
+	text-align: center;
+}
+
+#certificates img {
+	margin: 0 auto;
+	margin-bottom: 50px;
+
+}
+
+/* OFFLINE
+-------------------*/
+#offline {
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+#offline h1 {
+	color: #ff5277;
+	font-size: 2.6em;
+	font-weight: 700;
+}
+
+#offline p {
+	color: #0e141b;
+	font-size: 1.8em;
+}
+
+
+/* FOOTER
+-------------------*/
+
+footer {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #0e141b;
+}
+
+
+footer h2 {
+	font-size: 1.2em;
+	color: white;
+	font-weight: 900;
+}
+
+#footer-logo {
+	margin-top: 15px;
+}
+
+#git img {
+	margin-top: 10px;
+}
+
+#email img {
+	margin-top: 6px;
+}
+
+
+
+/* CONTACT ME PAGE
+-------------------*/
+
+#contact-title {
+	color: #ff5277;
+	font-size: 120px;
+}
+
+.submit-color {
+	background-color: #00a6c7;
+	color: white;
+}
+
+
+/* ------------------------------------------------------------- 
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+MEDIA QUERIES
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+	/*ABOUT SECTION
+	-----------------------*/
+	#about div p{
+		font-size: 1.3em;
+	}
+	#about div h1{
+		font-size: 2.6em;
+	}
+	#about div img{
+		width: 330px;
+		margin-top: 35px;
+		margin-left: 80px;
+	}
+
+	/*PROJECTS SECTION
+	-----------------------*/
+	#projects img {
+		width: 380px;
+	}
+	
+	#projects div p{
+		font-size: 1.3em;
+	}
+
+	#projects div h1{
+		font-size: 2.6em;
+	}
+
+	#projects h2{
+		font-size: 2.6em;
+	}
+
+	#projects h3 {
+		font-size: 1.6em;
+	}
+	/*HARVARD SECTION
+	-----------------------*/
+	#harvard div p, h3{
+		font-size: 1.4em;
+	}
+
+	#harvard div h1 {
+		font-size: 1.8em;
+	} 
+
+	.harvard-divider {
+		border: none;
+		margin: 5px;
+	}
+
+
+	/*FOOTER SECTION
+	-----------------------*/
+	footer h2 {
+		font-size: 1em;
+
+	}
+
+	img#facebook {
+		margin-top: -10px;
+	}
+
+	footer div.col-md-3 {
+		width: auto;
+		margin: 0 auto;
+	}
+
+	
+
+	/*CERTIFICATE SECTION
+	-----------------------*/
+
+	#certificates img {
+		width: 370px;
+
+	}
+
+	.middle {
+		margin-left: 120px;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+	/*ABOUT SECTION
+	-----------------------*/
+	#about div p{
+		font-size: 1.3em;
+	}
+	#about div h1{
+		font-size: 2.6em;
+	}
+	#about div img{
+		width: 330px;
+		margin-top: 115px;
+	}
+	#about div img{
+		width: 330px;
+		margin-top: 35px;
+		margin-left: 80px;
+	}
+
+	/*PROJECTS SECTION
+	-----------------------*/
+	#projects img {
+		width: 450px;
+	}
+	
+	#projects div p{
+		font-size: 1.3em;
+	}
+	#projects div h1{
+		font-size: 2.6em;
+	}
+
+	#projects h2{
+		font-size: 2.6em;
+	}
+
+	#projects h3 {
+		font-size: 1.6em;
+	}
+
+	
+
+	/*HARVARD SECTION
+	-----------------------*/
+	#harvard div p, h3{
+		font-size: 1.4em;
+	}
+
+	#harvard div h1 {
+		font-size: 1.8em;
+	} 
+
+	.harvard-divider {
+		border: none;
+		margin: 5px;
+	}
+	
+	/*CERTIFICATES SECTION
+	-----------------------*/
+
+	#certificates img {
+		width: 420px;
+
+	}
+
+	.middle {
+		margin-left: 125px;
+	}
+	
+
+	/*FOOTER SECTION
+	-----------------------*/
+	footer h2 {
+		font-size: 1em;
+
+	}
+
+	img#facebook {
+		margin-top: -10px;
+	}
+
+	footer div.col-md-3 {
+		width: auto;
+	}
+
+
+	div#footer-logo.col-md-3 {
+		margin: 10px auto;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+	/*ABOUT SECTION
+	-----------------------*/
+	#about div p{
+		font-size: 1.3em;
+	}
+	#about div img{
+		width: 330px;
+		margin-top: 115px;
+	}
+
+	
+
+	/*PROJECTS SECTION
+	-----------------------*/
+	#projects img {
+		width: 610px;
+	}
+	
+	#projects div p{
+		font-size: 1.3em;
+	}
+
+	/*HARVARD SECTION
+	-----------------------*/
+	#harvard div p, h3{
+		font-size: 1.4em;
+	}
+
+	#harvard div h1 {
+		font-size: 1.8em;
+	}
+
+	/*CERTIFICATES SECTION
+	-----------------------*/
+	#certificates img {
+		width: 550px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	/* HOME GENERATOR SECTION */
+	div.col-md-3 {
+		margin: 0 auto;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+	/* HOME GENERATOR SECTION */
+	div.col-md-3 {
+		margin: 0 auto;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
